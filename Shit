@@ -20,7 +20,7 @@ Title.Parent = Frame
 Title.Size = UDim2.new(1, 0, 0.1, 0)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "c00lshit (fe skided) ima gonan naziLAL"
+Title.Text = "c00lshit (fe skided)"
 Title.TextColor3 = Color3.fromRGB(128, 0, 128) -- Roxo
 Title.TextScaled = true
 Title.Font = Enum.Font.SourceSansBold
@@ -72,16 +72,19 @@ end
 -- Criar botões para executar scripts
 local scripts = {
     {"Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"},
-    {"kill all", "https://raw.githubusercontent.com/Seco53/FlingScript.lua/refs/heads/main/FlingingScript.lua"},
-    {"energize fe", "https://pastebin.com/raw/5X3iugkW"},
-    {"Animation GUI", "https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"}
+    {"KILL ALL", "https://raw.githubusercontent.com/Seco53/FlingScript.lua/refs/heads/main/FlingingScript.lua"},
+    {"animation gui LOL", "https://pastebin.com/raw/5X3iugkW"},
+    {"Animation GUI", "https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"},
+    {"c000lgui by GiGXxX4", "https://raw.githubusercontent.com/ananas12-cell/c000lgui-by-GiGXxX4/refs/heads/main/gui"},
+    {"random ahhh jumpscare", "https://pastebin.com/raw/4FYxyfYy"}
 }
 
+local buttonSpacing = 0.12 -- Ajuste do espaçamento entre os botões
 for i, scriptData in ipairs(scripts) do
     local button = Instance.new("TextButton")
     button.Parent = Frame
-    button.Size = UDim2.new(0.8, 0, 0.1, 0)
-    button.Position = UDim2.new(0.1, 0, 0.2 + (i * 0.12), 0)
+    button.Size = UDim2.new(0.8, 0, 0.08, 0)
+    button.Position = UDim2.new(0.1, 0, 0.15 + ((i - 1) * buttonSpacing), 0)
     button.Text = scriptData[1]
     button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
     button.TextColor3 = Color3.new(1, 1, 1)
@@ -96,7 +99,7 @@ local Button = Instance.new("TextButton")
 Button.Parent = Frame
 Button.Size = UDim2.new(0.2, 0, 0.1, 0)
 Button.Position = UDim2.new(0.4, 0, 0.9, 0)
-Button.Text = "close shit"
+Button.Text = "close this shit (dont google ss)"
 Button.MouseButton1Click:Connect(function()
     Frame.Visible = not Frame.Visible
 end)
