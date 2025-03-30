@@ -20,7 +20,7 @@ Title.Parent = Frame
 Title.Size = UDim2.new(1, 0, 0.1, 0)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "c00lshit (fe skided)"
+Title.Text = "c00lshit (fe skided) ima gonan naziLAL"
 Title.TextColor3 = Color3.fromRGB(128, 0, 128) -- Roxo
 Title.TextScaled = true
 Title.Font = Enum.Font.SourceSansBold
@@ -72,8 +72,8 @@ end
 -- Criar botões para executar scripts
 local scripts = {
     {"Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"},
-    {"Fling Script", "https://raw.githubusercontent.com/Seco53/FlingScript.lua/refs/heads/main/FlingingScript.lua"},
-    {"Pastebin Script", "https://pastebin.com/raw/5X3iugkW"},
+    {"kill all", "https://raw.githubusercontent.com/Seco53/FlingScript.lua/refs/heads/main/FlingingScript.lua"},
+    {"energize fe", "https://pastebin.com/raw/5X3iugkW"},
     {"Animation GUI", "https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"}
 }
 
