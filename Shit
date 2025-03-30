@@ -20,7 +20,7 @@ Title.Parent = Frame
 Title.Size = UDim2.new(1, 0, 0.1, 0)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "c00lshit (fe skided)"
+Title.Text = "c00lshit (fe skided)💀😎🥶"
 Title.TextColor3 = Color3.fromRGB(128, 0, 128) -- Roxo
 Title.TextScaled = true
 Title.Font = Enum.Font.SourceSansBold
@@ -76,7 +76,7 @@ local scripts = {
     {"animation gui LOL", "https://pastebin.com/raw/5X3iugkW"},
     {"Animation GUI", "https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"},
     {"c000lgui by GiGXxX4", "https://raw.githubusercontent.com/ananas12-cell/c000lgui-by-GiGXxX4/refs/heads/main/gui"},
-    {"random ahhh jumpscare", "https://pastebin.com/raw/4FYxyfYy"}
+    {"f3x script c00lkid 🥶😎", "https://raw.githubusercontent.com/wik7123/hi/main/copyezskid%20ok"}
 }
 
 local buttonSpacing = 0.12 -- Ajuste do espaçamento entre os botões
